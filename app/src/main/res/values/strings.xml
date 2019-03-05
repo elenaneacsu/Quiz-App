@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Quiz IT Up</string>
+    <string name="Teacher">teacherBtn</string>
+    <string name="btn_loginteacher">Teacher LogIn</string>
+    <string name="btn_loginstudent">Student LogIn</string>
+    <string name="btn_newaccount">Create New Account</string>
+    <string name="textview_name">Name</string>
+    <string name="textview_surname">Surname</string>
+    <string name="textview_email">Email</string>
+    <string name="edittext_surname">Surname</string>
+    <string name="edittext_email">Email</string>
+    <string name="radiobutton_teacher">Teacher</string>
+    <string name="radiobutton_student">Student</string>
+    <string name="checkbox_tc">I agree with my personal data being used on the purpose of this application</string>
+    <string name="btn_submit">Submit</string>
+    <string name="textview_password">Password</string>
+    <string name="edittext_password">Password</string>
+    <string name="edittext_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="lastWeek">Last Week</string>
+    <string name="lastMonth">Last Month</string>
+    <string name="all">All</string>
+    <string name="textview_history">Quizzes History</string>
+    <string name="textview_room">Room Number</string>
+    <string name="btn_join">Join</string>
+    <string name="btn_studentprofile">View Profile</string>
+    <string name="btn_teacherprofile">View Profile</string>
+    <string name="btn_viewgroups">View Resources</string>
+    <string name="btn_addquiz">Add New Quiz</string>
+    <string name="textview_title">Title</string>
+    <string name="textview_newquestion">New Question</string>
+    <string name="edittext_question">Enter question content</string>
+    <string name="btn_addquestion">Add New Question</string>
+    <string name="btn_addanswear">Add Answear</string>
+    <string name="btn_planactivity">Plan New Activity</string>
+    <string name="textview_activityname">Activity name</string>
+    <string name="textview_details">Details</string>
+    <string name="edittext_details">Details</string>
+    <string name="btn_addactivity">Add</string>
+    <string name="switch_switchmode">Edit Mode</string>
+    <string name="tv_university">University</string>
+    <string name="tv_faculty">Faculty</string>
+    <string name="edittext_university">University</string>
+    <string name="edittext_faculty">Faculty</string>
+    <string name="btn_savestuddetails">Save</string>
+    <string name="btn_saveteacherdetails">Save</string>
+    <string name="btn_addsubject">Add new subject</string>
+    <string name="textview_subject">Subject</string>
+    <string name="textview_didyouknow">Did you know?</string>
+    <string name="studentLevelTV">Grades</string>
+    <string name="textview_university">University</string>
+    <string name="textview_faculty">Faculty</string>
+    <string name="textview_activitydetails">Details</string>
+    <string name="did_you_know_that">Did You Know That...?</string>
+    <string name="authorTV">Author</string>
+    <string name="subjectTV">Subject</string>
+    <string name="chapterTV">Chapter</string>
+    <string name="timeTV">Time</string>
+    <string name="time_mins">Time(mins)</string>
+    <string name="quizTypeTV">Quiz Type</string>
+    <string name="author">Author:</string>
+    <string name="quiz_type">Quiz Type:</string>
+    <string name="time_h">Time(h):</string>
+    <string name="subject">Subject:</string>
+    <string name="textview_chapter">Chapter:</string>
+    <string name="title">Title</string>
+    <string name="add_multiple_choice_question">Add multiple choice question</string>
+    <string name="add_true_false_question">Add True/False question</string>
+    <string name="save_test">SAVE TEST</string>
+    <string name="note_please_select_the_correct_answers_for_your_question">Note: Please select the correct answers for your question</string>
+    <string name="question">Question</string>
+    <string name="first_possible_answer">First possible answer</string>
+    <string name="second_possible_answer">Second possible answer</string>
+    <string name="third_possible_answer">Third possible answer</string>
+    <string name="fourth_possible_answer">Fourth possible answer</string>
+    <string name="save_question">Save question</string>
+    <string name="save_and_go_back">Save and go back</string>
+    <string name="trueQ">True</string>
+    <string name="falseQ">False</string>
+    <string name="add_email">Please add a valid email address</string>
+    <string name="add_password">Please add a password</string>
+    <string name="password_too_short">Password too short!</string>
+    <string name="error_login">An error occurred. Please try again</string>
+    <string name="success_user">Account successfully created. Verify your email.</string>
+    <string name="insert_email">Please insert your email address</string>
+    <string name="insert_password">Please insert your password</string>
+    <string name="wrong_credentials">Wrong email and/or password</string>
+    <string name="verify_email">Please verify your email</string>
+    <string name="success">Successfully updated!</string>
+    <string name="go_back">GO BACK</string>
+    <string name="your_test_id">Your test id:</string>
+
+    <string-array name="historyOptions">
+        <item>Last Week</item>
+        <item>Last Month</item>
+        <item>All</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">NEXT</string>
+    <string name="btnTeste">Rezultate</string>
+    <string name="btnRaport">Raport</string>
+</resources>

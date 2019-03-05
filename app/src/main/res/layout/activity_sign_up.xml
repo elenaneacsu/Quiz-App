@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/textview_name"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/edittext_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_surname"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/textview_surname"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/edittext_surname"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/textview_name"
+        app:layout_constraintTop_toBottomOf="@+id/textview_name" />
+
+    <TextView
+        android:id="@+id/textview_email"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/textview_email"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/edittext_email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/textview_surname"
+        app:layout_constraintTop_toBottomOf="@+id/textview_surname" />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/edittext_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_surname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/textview_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_surname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/edittext_surname"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/textview_surname"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_name" />
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/edittext_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/textview_email"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_surname" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_password">
+
+        <RadioButton
+            android:id="@+id/radiobutton_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiobutton_teacher" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiobutton_student" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/checkbox_tc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_rounded"
+        android:onClick="submit"
+        android:text="@string/btn_submit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/textview_password"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/edittext_password"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/textview_email"
+        app:layout_constraintTop_toBottomOf="@+id/textview_email" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/edittext_password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/textview_password"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_email" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+</android.support.constraint.ConstraintLayout>

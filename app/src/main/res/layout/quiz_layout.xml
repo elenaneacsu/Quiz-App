@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/authorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/authorTV" />
+
+
+        <TextView
+            android:id="@+id/fillAuthorTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/authorTV" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/subjectTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subjectTV" />
+
+
+        <TextView
+            android:id="@+id/fillSubjectTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/subjectTV" />
+
+
+        <TextView
+            android:id="@+id/chapterTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chapterTV" />
+
+
+        <TextView
+            android:id="@+id/fillChapterTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/chapterTV" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timeTV" />
+
+
+        <TextView
+            android:id="@+id/fillTimeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/timeTV" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/quizTypeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quizTypeTV" />
+
+
+        <TextView
+            android:id="@+id/fillQuizTypeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/quizTypeTV" />
+    </LinearLayout>
+
+</LinearLayout>

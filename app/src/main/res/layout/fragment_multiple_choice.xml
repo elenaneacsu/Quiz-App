@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultipleChoiceFragment"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <CheckBox
+        android:id="@+id/checkbox_firstans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_secondans"
+        app:layout_constraintEnd_toStartOf="@+id/textview_firstans"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkbox_secondans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_thirdans"
+        app:layout_constraintEnd_toStartOf="@+id/textview_secondans"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_firstans" />
+
+    <CheckBox
+        android:id="@+id/checkbox_thirdans"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_fourthans"
+        app:layout_constraintEnd_toStartOf="@+id/textview_thirdans"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_secondans" />
+
+    <CheckBox
+        android:id="@+id/checkbox_fourthans"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textview_fourthans"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_thirdans" />
+
+    <TextView
+        android:id="@+id/textview_firstans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkbox_firstans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_firstans"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textview_secondans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkbox_secondans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_secondans"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textview_thirdans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkbox_thirdans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_thirdans"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textview_fourthans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkbox_fourthans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_fourthans"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_nextquestion"
+        style="@style/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_fourthans" />
+</android.support.constraint.ConstraintLayout>

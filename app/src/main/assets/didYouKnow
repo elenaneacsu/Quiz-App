@@ -1,0 +1,63 @@
+{ "info details":[ 
+{
+  "title": "1) Developers slow to ask for help when facing problems",
+  "fact": "This is related to the way people learn how to program; basically, the act of teaching follows the line of learning Mathematics: a little theory, one or two examples and many exercises. This format takes learners to try hard on exercises and, quite often, to solve everything themselves without asking for help. This attitude is not bad and is even recommended, but you need to know to what extent should stop trying and ask for some form of help."
+},
+{
+  "title": "2) Programmers have a tendency to report their problems incompletely",
+  "fact": "This fact is related to Psychology field research. The results indicate that when a person has a problem he/she does not report complete information about the problem, especially when it is responsible directly or indirectly. This result has been confirmed experimentally with programmers and one of the main reasons is the following: to fully report a problem is seen as a sign of weakness that can lead to some kind of judgment of skill and proficiency by whoever is listening to the story. This situation is more common when it comes to a fundamental error committed by novices."
+},
+{
+  "title": "3) Developers seek other forms of help before talking to coworkers",
+  "fact": "The fact of communication with other people do not have priority when a programmer needs help again is related to the sense of judging of what other people do when they know the difficulty. However, sites like StackOverflow has flourished exploring this type of behavior by aggregating help in various aspects of communities for developers."
+},
+{
+  "title": "4) Progress in programming can be classified into 4 stages",
+  "fact": "The classification of a programmer progress is important to support multiple metrics involved in software development and also help project managers and other professionals to evaluate how good the project is as a whole.Moreover, it is also important to know in which phase of the progress the developer is to, among other things, offer some kind of help so that he does not spend too much time stuck in a specific task to the point of delaying any deliveries. An interesting classification identified (automatically) four possible states of progress: Complex Programming, Making Progress, Slow Progress, Stuck."
+},
+{
+  "title": "5) Developers find beatable and unbeatable barriers",
+  "fact": "This may seem obvious, but it is very important to be detected, since a programming barrier can lead to serious term, team morale and confidence problems. One of the main difficulties of detecting barriers and classify them is the fact that this information may be subjective. In other words, asking directly to the programmer if he/she is with some beatable or unbeatable barrier already affects the result, as it can not always be sincere. There are also some implications in terms of ego and moral just by identifying this type of barrier on programming."
+},
+{
+  "title": "6) There are 6 types of barriers related to programming",
+  "fact": "Besides the classification of beatable and unbeatable programming barriers there is a very interesting study that feature each of the possible programming barriers. To help understand the barriers the researchers point out common phrases in each of the ratings below:Besides the classification of beatable and unbeatable programming barriers there is a very interesting study that feature each of the possible programming barriers. To help understand the barriers the researchers point out common phrases in each of the ratings below:I do not know what the computer should do; I know what to do, but do not know what to use; I know what to use, but do not know how to combine what I need; I know what to use, but do not know how to use; I thought I knew how to use X, but it does not do what I expected; I understand what happened, but I can not check."
+},
+{
+  "title": "7) Programmers spend approximately 30% of the time surfing the source code",
+  "fact": "People who program know that most of the time relies on a editing source code tool. However, how time is divided between the editing tasks remains unclear from the scientific point of view. According to an important study, it was found that approximately 30% of a programmer working time is not spent editing the text (by including, editing ou deleting), but surfing between multiple files along the source code. The navigation involves research, observation, information gathering, memoring and other activities. That is, you could say that programming is an activity whose third part is just contemplative."
+},
+{
+  "title": "8) Remote programmer productivity is lower than the productivity of local programmers",
+  "fact": "This claim about productivity is controversial, especially when routines such as home office, remote working and global software development projects had become increasingly high. Anyway, there are concrete evidences based on several metrics of software that, in fact, remote programmers do not produce as much as programmers working together in the same place. But it does make sense to think this way if we analyze the other facts of this list, for example, the preference for the lack of communication with other people. In fact, informal communication is a major factor that influenced the results of this research, because asking that hint in the meeting during a coffee break is very important according to what was found alone."
+},
+{
+  "title": "9) Most programmers are white, young & male",
+  "fact": "This statement about the diversity of programmers did not came just from an academic research, but rather Adda Birnir, who is the founder of the recruitment and selection Skillcrush website. It was introduced in the video “Is CODE the most important language in the world?”.Nowadays is very common to detach minorities in programming, especially the low number of women. However, as some data show, this is not the only profile that has low representation in programming and this can have serious implications when it comes to create code to applications that must deal adequately with certain groups of users."
+},
+{
+  "title": "10) The main error messages, execution times and runtime compilation errors and the average time to solve them",
+  "fact": "Error messages are very specific to each language problems and runtime compilation errors. To highlight some cases mention the master’s thesis of Suzanne Marie Thompson, as she looked at a lot of Java programmers in different scenarios and collected many interesting facts about them. The tables below include a bit of history about errors and the average time to correct them. Although the study focus on a very specific context (learning the Java language) is possible to make a comparison with other scenarios and situations and prove that much of the most common errors occur in different contexts."
+},
+{
+  "title": "11) The software maintenance consumes more than 50% of the effort",
+  "fact": "Software maintenance involves the manipulation of legacy code. There is a study about effort that shows as a result that the division is not equal between creation and maintenance. In the study that mention a value of more than 50% of the effort due to software maintenance there is also a great discussion on software evolution towards its maintenance and the necessary tasks for both. Surely is worth taking a look at this reference before making that decision about starting to develop the solution from scratch or working with an existing code base."
+},
+{
+  "title": "12) The software maintenance consumes between 40% and 90% of costs",
+  "fact": "One of the main rules of business people says it is much more expensive to get a new customer than to keep an existing customer. However, according to software engineering researches, the reality is somewhat different when it comes to code: to keep the code running through maintenance tasks can cost up to 90% of all project costs.These statistics are very general and were obtained in a very particular context of the 487 organizations studied for this research (which is from 1980). Certainly there are many factors to consider, but at least there is a starting point for analyzing courses and discuss this topic when talking about software maintenance."
+},
+{
+  "title": "13) The work of software maintenance is divided into 4 basic tasks",
+  "fact": "Still talking about maintenance of source code, a study that has greatly influenced the software engineering community classified by analyzing the results of questionnaires the main practices of software maintenance. Four practices were identified: Improvement - Involve changes in functionality; Adaptative - Changes in the environment are adapted to the requirements; Corrective - Activities for error correction; Preventive - Improvements to avoid future problems."
+},
+{
+  "title": "14) Costs of fixing bugs after implementation are 10 times higher than construction phase and 100 times larger than design phase",
+  "fact": "This fact is a classic of technology field and led to the evolution of traditional software development processes until what we have today. The main point here is the identification of high costs when there is a lack of attention to construction and design the software."
+},
+{
+  "title": "15) Peer code review can discover up to 60% of bugs",
+  "fact": "Code review made by other people, either in the form of pair programming or not, is really effective. There are many studies on this, but one of the key of them indicates that up to 60% of bugs can be discovered (but not necessarily fixed) when more than one person reviews the source code. This study is relatively old and can be said that it is one of the key influencers of techniques involving agile process and other ways of developing software whose main focus is on activities, steps, organization and other skills not as technical as programming."
+}
+]
+}

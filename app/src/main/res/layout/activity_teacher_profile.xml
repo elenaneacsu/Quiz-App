@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".TeacherProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_switchmode" />
+
+            <LinearLayout
+                android:id="@+id/teacher_profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_16">
+
+                    <TextView
+                        android:id="@+id/textview_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/textview_name" />
+
+                    <EditText
+                        android:id="@+id/edittext_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:hint="@string/edittext_name"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/textview_surname" />
+
+                    <EditText
+                        android:id="@+id/edittext_surname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:hint="@string/edittext_surname"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textview_subject"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/textview_subject" />
+
+                    <EditText
+                        android:id="@+id/edittext_subject"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:hint="@string/textview_subject"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_addsubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_16"
+                android:background="@drawable/btn_rounded"
+                android:onClick="addNewSubject"
+                android:paddingLeft="@dimen/space_16"
+                android:paddingRight="@dimen/space_16"
+                android:text="@string/btn_addsubject"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/saveTeacherDetailsBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_64"
+                android:background="@drawable/btn_rounded"
+                android:paddingLeft="@dimen/space_16"
+                android:paddingTop="@dimen/space_24"
+                android:paddingRight="@dimen/space_16"
+                android:paddingBottom="@dimen/space_24"
+                android:text="@string/btn_saveteacherdetails"
+                android:textColor="@android:color/white"
+                android:onClick="btnSaveTeacherOnClick"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
